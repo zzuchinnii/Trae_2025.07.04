@@ -29,7 +29,7 @@ const Header = () => {
             </div>
           </div>
           <div className="flex items-center space-x-4">
-            <button className="text-neutral-600 hover:text-primary-600 transition-colors duration-200 px-2 py-1 rounded-md hover:bg-neutral-100">中/EN</button>
+            <button className="text-neutral-600 hover:text-primary-600 transition-colors duration-200 px-2 py-1 rounded-md hover:bg-neutral-100">繁中/EN</button>
             <Link href="/login" className="text-neutral-600 hover:text-primary-600 transition-colors duration-200 p-2 rounded-md hover:bg-neutral-100">&#x1F464;</Link> {/* User Icon */}
             <Link href="/cart" className="text-neutral-600 hover:text-primary-600 transition-colors duration-200 p-2 rounded-md hover:bg-neutral-100">&#x1F6D2;</Link> {/* Cart Icon */}
             <button className="text-neutral-600 hover:text-primary-600 transition-colors duration-200 p-2 rounded-md hover:bg-neutral-100">&#x1F50D;</button> {/* Search Icon */}

@@ -15,20 +15,20 @@ interface FeatureCard {
 const featuredFlowers: FeatureCard[] = [
   {
     id: 'lilies',
-    title: 'Elegant Lilies',
-    description: 'Symbolizing purity and grace',
+    title: '優雅百合',
+    description: '象徵純潔與優雅',
     color: 'bg-purple-100'
   },
   {
     id: 'tulips',
-    title: 'Vibrant Tulips',
-    description: 'Representing perfect love',
+    title: '繽紛鬱金香',
+    description: '代表完美的愛情',
     color: 'bg-yellow-100'
   },
   {
     id: 'roses',
-    title: 'Romantic Roses',
-    description: 'Classic symbol of love and beauty',
+    title: '浪漫玫瑰',
+    description: '愛情與美麗的經典象徵',
     color: 'bg-pink-100'
   }
 ];
@@ -52,14 +52,14 @@ export default function HeroSection() {
 
       {/* Spring Blooms Banner */}
       <div className="bg-accent-500 text-white rounded-xl px-6 py-4">
-        <h2 className="text-lg font-semibold">Spring Blooms</h2>
+        <h2 className="text-lg font-semibold">春日花語</h2>
       </div>
 
 
 
       {/* Featured Flowers Section */}
       <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-neutral-900">Featured Flowers</h3>
+        <h3 className="text-xl font-semibold text-neutral-900">精選花卉</h3>
         
         <div className="grid grid-cols-1 gap-4">
           {featuredFlowers.map((flower) => (

@@ -27,14 +27,14 @@ const CategoryButton: React.FC<CategoryButtonProps> = ({ title, isActive = false
 
 const ShopHeader: React.FC = () => {
   const router = useRouter();
-  const [activeCategory, setActiveCategory] = useState('Themed Collections');
+  const [activeCategory, setActiveCategory] = useState('主題系列');
   const [searchQuery, setSearchQuery] = useState('');
 
   const categories = [
-    'Themed Collections',
-    'By Main Flower', 
-    'By Color',
-    'Custom Studio'
+    '主題系列',
+    '依主花分類', 
+    '依顏色分類',
+    '客製工作室'
   ];
 
   const handleSearch = () => {
@@ -68,7 +68,7 @@ const ShopHeader: React.FC = () => {
         </div>
         <div className="flex-1 text-center pr-9">
           <h1 className="text-lg font-bold text-[#171212]">
-            Shop All
+            全部商品
           </h1>
         </div>
       </div>
@@ -86,7 +86,7 @@ const ShopHeader: React.FC = () => {
           </div>
           <input
             type="text"
-            placeholder="Search"
+            placeholder="搜尋"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyPress={handleKeyPress}

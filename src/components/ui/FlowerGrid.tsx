@@ -38,44 +38,44 @@ const FlowerGrid: React.FC = () => {
 
   const flowerCollections = [
     {
-      title: "Rose Romance",
+      title: "玫瑰浪漫",
       backgroundImage: "/images/rose-romance-bg.png",
-      onClick: () => router.push('/product/rose-romance')
+      onClick: () => router.push('/product/5')
     },
     {
-      title: "Tulip Elegance",
+      title: "鬱金香雅致",
       backgroundImage: "/images/tulip-elegance-bg.png",
-      onClick: () => router.push('/product/tulip-elegance')
+      onClick: () => router.push('/product/12')
     },
     {
-      title: "Pastel Dreams",
+      title: "粉彩夢境",
       backgroundImage: "/images/pastel-dreams-bg.png",
-      onClick: () => router.push('/product/pastel-dreams')
+      onClick: () => router.push('/product/11')
     },
     {
-      title: "Vibrant Hues",
+      title: "繽紛色彩",
       backgroundImage: "/images/vibrant-hues-bg.png",
-      onClick: () => router.push('/product/vibrant-hues')
+      onClick: () => router.push('/product/11')
     },
     {
-      title: "Orchid Opulence",
+      title: "蘭花華麗",
       backgroundImage: "/images/orchid-opulence-bg.png",
-      onClick: () => router.push('/product/orchid-opulence')
+      onClick: () => router.push('/product/13')
     },
     {
-      title: "Sunflower Sunshine",
+      title: "向日葵陽光",
       backgroundImage: "/images/sunflower-sunshine-bg.png",
-      onClick: () => router.push('/product/sunflower-sunshine')
+      onClick: () => router.push('/product/4')
     },
     {
-      title: "Serene Bloom",
+      title: "寧靜花束",
       backgroundImage: "/images/serene-bloom-1.png",
-      onClick: () => router.push('/product/serene-bloom')
+      onClick: () => router.push('/product/1')
     },
     {
-      title: "Carnation Charm",
+      title: "康乃馨魅力",
       backgroundImage: "/images/carnation-charm-bg.png",
-      onClick: () => router.push('/product/carnation-charm')
+      onClick: () => router.push('/product/2')
     }
   ];
 

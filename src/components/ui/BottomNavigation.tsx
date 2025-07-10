@@ -15,25 +15,25 @@ interface NavItem {
 const navItems: NavItem[] = [
   {
     id: 'home',
-    label: 'Home',
+    label: '首頁',
     href: '/',
     icon: '/icons/home-icon.svg'
   },
   {
     id: 'shop',
-    label: 'Shop',
+    label: '商店',
     href: '/shop',
     icon: '/icons/shop-icon.svg'
   },
   {
-    id: 'quiz',
-    label: 'Quiz',
-    href: '/quiz',
-    icon: '/icons/quiz-icon.svg'
+    id: 'cart',
+    label: '購物車',
+    href: '/cart',
+    icon: '/icons/cart-icon.svg'
   },
   {
     id: 'profile',
-    label: 'Profile',
+    label: '個人',
     href: '/profile',
     icon: '/icons/profile-icon.svg'
   }

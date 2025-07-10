@@ -2,11 +2,17 @@
 
 import { useCartStore } from '@/lib/store';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 export default function CartTemplate() {
   const { items, removeFromCart, clearCart } = useCartStore();
+  const router = useRouter();
 
   const total = items.reduce((acc, item) => acc + item.price * item.quantity, 0);
+
+  const handleContinueShopping = () => {
+    router.back();
+  };
 
   return (
     <div className="bg-white">
@@ -15,7 +21,7 @@ export default function CartTemplate() {
         <div className="mt-12 lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16">
           <section aria-labelledby="cart-heading" className="lg:col-span-7">
             <h2 id="cart-heading" className="sr-only">
-              Items in your shopping cart
+              購物車中的商品
             </h2>
 
             <ul role="list" className="divide-y divide-gray-200 border-t border-b border-gray-200">
@@ -46,13 +52,13 @@ export default function CartTemplate() {
 
                       <div className="mt-4 sm:mt-0 sm:pr-9">
                         <label htmlFor={`quantity-${productIdx}`} className="sr-only">
-                          Quantity, {product.name}
+                          數量, {product.name}
                         </label>
                         <p className="text-sm text-gray-500">數量: {product.quantity}</p>
 
                         <div className="absolute top-0 right-0">
                           <button type="button" onClick={() => removeFromCart(product.id)} className="-m-2 inline-flex p-2 text-gray-400 hover:text-gray-500">
-                            <span className="sr-only">Remove</span>
+                            <span className="sr-only">移除</span>
                             <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                               <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
                             </svg>
@@ -94,7 +100,14 @@ export default function CartTemplate() {
                 前往結帳
               </button>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 space-y-3">
+                <button
+                    onClick={handleContinueShopping}
+                    type="button"
+                    className="w-full rounded-md border border-gray-300 bg-white py-3 px-4 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
+                >
+                    繼續選購
+                </button>
                 <button
                     onClick={clearCart}
                     type="button"

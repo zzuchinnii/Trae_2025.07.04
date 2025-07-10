@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Button from '../atoms/Button';
 
 interface Question {
@@ -28,6 +29,7 @@ const questions: Question[] = [
 ];
 
 export default function QuizForm() {
+  const router = useRouter();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<string[]>([]);
   const [isFinished, setIsFinished] = useState(false);
@@ -80,12 +82,21 @@ export default function QuizForm() {
               <h3 className="text-lg font-semibold text-neutral-900">為您推薦</h3>
               <div className="grid grid-cols-1 gap-4">
                 {recommendations.map(rec => (
-                  <div key={rec.id} className="border border-neutral-200 rounded-lg p-4 flex items-center space-x-4">
+                  <div 
+                    key={rec.id} 
+                    className="border border-neutral-200 rounded-lg p-4 flex items-center space-x-4 cursor-pointer hover:bg-neutral-50 transition-colors duration-200"
+                    onClick={() => router.push(`/product/${rec.id}`)}
+                  >
                     <div className="w-20 h-20 bg-neutral-100 rounded-md flex-shrink-0"></div>
-                    <div>
+                    <div className="flex-1">
                       <h4 className="font-medium text-neutral-900">{rec.name}</h4>
                       <p className="text-neutral-600 text-sm">{rec.description}</p>
                       <p className="text-primary-600 font-medium mt-1">${rec.price}</p>
+                    </div>
+                    <div className="text-neutral-400">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
                     </div>
                   </div>
                 ))}

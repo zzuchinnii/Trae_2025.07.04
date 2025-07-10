@@ -42,22 +42,22 @@ const SmartSelection: React.FC = () => {
 
   const features = [
     {
-      title: "Quiz: Find Your Flower",
-      description: "Take our fun quiz to discover the perfect flowers that match your personality or preferences.",
+      title: "測驗：找到您的花卉",
+      description: "參加我們的趣味測驗，發現最符合您個性或喜好的完美花卉。",
       backgroundImage: "/images/quiz-card-bg.png",
       onClick: () => router.push('/quiz')
     },
     {
-      title: "Shop by Occasion",
-      description: "Filter flower arrangements by specific events or occasions like birthdays, anniversaries, or celebrations.",
+      title: "依場合選購",
+      description: "根據特定活動或場合篩選花藝作品，如生日、週年紀念或慶祝活動。",
       backgroundImage: "/images/occasion-card-bg.png",
-      onClick: () => router.push('/shop?filter=occasion')
+      onClick: () => router.push('/shop/occasion')
     },
     {
-      title: "Shop by Style",
-      description: "Explore arrangements based on aesthetic preferences such as modern, romantic, or rustic styles.",
+      title: "依風格選購",
+      description: "根據美學偏好探索花藝設計，包括現代、浪漫或鄉村風格。",
       backgroundImage: "/images/style-card-bg.png",
-      onClick: () => router.push('/shop?filter=style')
+      onClick: () => router.push('/shop/style')
     }
   ];
 
@@ -74,7 +74,7 @@ const SmartSelection: React.FC = () => {
         </div>
         <div className="flex-1 text-center pr-12">
           <h2 className="text-lg font-bold text-[#171212]">
-            Smart Selection
+            智慧選擇
           </h2>
         </div>
       </div>
@@ -82,7 +82,7 @@ const SmartSelection: React.FC = () => {
       {/* Subtitle */}
       <div className="px-4 py-5">
         <h3 className="text-[22px] font-bold text-[#171212] leading-7">
-          Find your perfect flowers
+          找到您的完美花卉
         </h3>
       </div>
 
