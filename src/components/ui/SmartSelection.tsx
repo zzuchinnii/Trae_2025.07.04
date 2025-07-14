@@ -48,6 +48,12 @@ const SmartSelection: React.FC = () => {
       onClick: () => router.push('/quiz')
     },
     {
+      title: "心理測驗：找到你的命定花卉",
+      description: "透過深度心理分析，發現最能代表你個性特質的花卉類型。",
+      backgroundImage: "/images/personality-quiz-bg.png",
+      onClick: () => router.push('/personality-quiz')
+    },
+    {
       title: "依場合選購",
       description: "根據特定活動或場合篩選花藝作品，如生日、週年紀念或慶祝活動。",
       backgroundImage: "/images/occasion-card-bg.png",
