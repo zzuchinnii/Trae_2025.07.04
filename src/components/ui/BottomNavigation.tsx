@@ -64,14 +64,7 @@ export default function BottomNavigation() {
                   alt={`${item.label} icon`}
                   width={24}
                   height={24}
-                  className={`transition-all duration-200 ${
-                    isActive ? 'opacity-100' : 'opacity-70'
-                  }`}
-                  style={{
-                    filter: isActive 
-                      ? 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' 
-                      : 'brightness(0) saturate(100%) invert(60%) sepia(8%) saturate(872%) hue-rotate(169deg) brightness(99%) contrast(86%)'
-                  }}
+                  className={`transition-all duration-200 ${isActive ? 'text-primary-600' : 'text-neutral-500'}`}
                 />
               </div>
               <span className={`text-xs font-medium transition-all duration-200 ${
