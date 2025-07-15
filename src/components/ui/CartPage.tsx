@@ -26,21 +26,21 @@ const CartPage: React.FC<CartPageProps> = ({ onBack }) => {
       name: '優雅玫瑰花束',
       price: 35,
       quantity: 1,
-      image: '/images/elegant-roses-bouquet.png'
+      image: '/images/elegant-roses-bouquet.svg'
     },
     {
       id: '2', 
       name: '鬱金香花藝',
       price: 25,
       quantity: 2,
-      image: '/images/serene-bloom-1.png'
+      image: '/images/serene-bloom-1.svg'
     },
     {
       id: '3',
       name: '蘭花中心裝飾', 
       price: 45,
       quantity: 1,
-      image: '/images/serene-bloom-2.png'
+      image: '/images/serene-bloom-2.svg'
     }
   ]);
 

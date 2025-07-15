@@ -1,0 +1,97 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8FFFA" />
+  
+  <!-- 百合花群組 -->
+  <g transform="translate(400, 300)">
+    <!-- 主要百合花 -->
+    <g transform="translate(0, -30) scale(1.2)">
+      <!-- 花瓣 -->
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFFFF" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFAF0" transform="scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF5E6" transform="rotate(60)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF0DC" transform="rotate(60) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFEBD2" transform="rotate(120)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE6C8" transform="rotate(120) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE1BE" transform="rotate(180)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFDCB4" transform="rotate(180) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD7AA" transform="rotate(240)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD2A0" transform="rotate(240) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFCD96" transform="rotate(300)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFC88C" transform="rotate(300) scale(-1, 1)" />
+      
+      <!-- 花蕊 -->
+      <circle cx="0" cy="0" r="15" fill="#FFDB7F" />
+      <g transform="translate(0, 0)">
+        <line x1="-5" y1="0" x2="5" y2="0" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="-4" x2="4" y2="4" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="0" y1="-5" x2="0" y2="5" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="4" x2="4" y2="-4" stroke="#FF9D4D" stroke-width="2" />
+      </g>
+    </g>
+    
+    <!-- 左側百合花 -->
+    <g transform="translate(-150, 20) scale(0.9) rotate(-15)">
+      <!-- 花瓣 -->
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFFFF" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFAF0" transform="scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF5E6" transform="rotate(60)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF0DC" transform="rotate(60) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFEBD2" transform="rotate(120)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE6C8" transform="rotate(120) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE1BE" transform="rotate(180)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFDCB4" transform="rotate(180) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD7AA" transform="rotate(240)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD2A0" transform="rotate(240) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFCD96" transform="rotate(300)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFC88C" transform="rotate(300) scale(-1, 1)" />
+      
+      <!-- 花蕊 -->
+      <circle cx="0" cy="0" r="15" fill="#FFDB7F" />
+      <g transform="translate(0, 0)">
+        <line x1="-5" y1="0" x2="5" y2="0" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="-4" x2="4" y2="4" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="0" y1="-5" x2="0" y2="5" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="4" x2="4" y2="-4" stroke="#FF9D4D" stroke-width="2" />
+      </g>
+    </g>
+    
+    <!-- 右側百合花 -->
+    <g transform="translate(150, 40) scale(0.85) rotate(15)">
+      <!-- 花瓣 -->
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFFFF" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFFAF0" transform="scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF5E6" transform="rotate(60)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFF0DC" transform="rotate(60) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFEBD2" transform="rotate(120)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE6C8" transform="rotate(120) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFE1BE" transform="rotate(180)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFDCB4" transform="rotate(180) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD7AA" transform="rotate(240)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFD2A0" transform="rotate(240) scale(-1, 1)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFCD96" transform="rotate(300)" />
+      <path d="M0,-10 C10,-60 30,-80 50,-70 C40,-40 20,-20 0,-10 Z" fill="#FFC88C" transform="rotate(300) scale(-1, 1)" />
+      
+      <!-- 花蕊 -->
+      <circle cx="0" cy="0" r="15" fill="#FFDB7F" />
+      <g transform="translate(0, 0)">
+        <line x1="-5" y1="0" x2="5" y2="0" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="-4" x2="4" y2="4" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="0" y1="-5" x2="0" y2="5" stroke="#FF9D4D" stroke-width="2" />
+        <line x1="-4" y1="4" x2="4" y2="-4" stroke="#FF9D4D" stroke-width="2" />
+      </g>
+    </g>
+    
+    <!-- 裝飾葉片 -->
+    <path d="M-100,100 C-120,50 -150,30 -200,20 C-150,0 -120,-20 -100,30 Z" fill="#90EE90" transform="rotate(10)" />
+    <path d="M100,120 C120,70 150,50 200,40 C150,20 120,0 100,50 Z" fill="#90EE90" transform="rotate(-20)" />
+    <path d="M-50,150 C-70,100 -100,80 -150,70 C-100,50 -70,30 -50,80 Z" fill="#A0FFA0" transform="rotate(30)" />
+  </g>
+  
+  <!-- 裝飾元素 -->
+  <circle cx="100" cy="100" r="5" fill="#FFF0D0" opacity="0.6" />
+  <circle cx="150" cy="200" r="8" fill="#FFF0D0" opacity="0.6" />
+  <circle cx="700" cy="150" r="7" fill="#FFF0D0" opacity="0.6" />
+  <circle cx="650" cy="400" r="6" fill="#FFF0D0" opacity="0.6" />
+  <circle cx="200" cy="500" r="9" fill="#FFF0D0" opacity="0.6" />
+</svg>

@@ -1,0 +1,117 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFFCF9" />
+  
+  <!-- 裝飾花朵和葉子 -->
+  <g transform="translate(400, 300)">
+    <!-- 左上角花朵群組 -->
+    <g transform="translate(-300, -200)">
+      <!-- 主花朵 -->
+      <circle cx="0" cy="0" r="40" fill="#FFDDDD" />
+      <circle cx="0" cy="0" r="30" fill="#FFCCCC" />
+      <circle cx="0" cy="0" r="20" fill="#FFBBBB" />
+      
+      <!-- 周圍小花 -->
+      <circle cx="-50" cy="-20" r="20" fill="#FFDDDD" />
+      <circle cx="-50" cy="-20" r="15" fill="#FFCCCC" />
+      <circle cx="-50" cy="-20" r="10" fill="#FFBBBB" />
+      
+      <circle cx="-30" cy="-60" r="25" fill="#FFDDDD" />
+      <circle cx="-30" cy="-60" r="18" fill="#FFCCCC" />
+      <circle cx="-30" cy="-60" r="12" fill="#FFBBBB" />
+      
+      <circle cx="40" cy="-40" r="22" fill="#FFDDDD" />
+      <circle cx="40" cy="-40" r="16" fill="#FFCCCC" />
+      <circle cx="40" cy="-40" r="10" fill="#FFBBBB" />
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,30 C-40,10 -70,0 -100,-10 C-70,-30 -40,-40 -20,-10 Z" fill="#A0D8A0" />
+      <path d="M30,20 C50,0 80,-10 110,-20 C80,-40 50,-50 30,-20 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 右下角花朵群組 -->
+    <g transform="translate(300, 200)">
+      <!-- 主花朵 -->
+      <circle cx="0" cy="0" r="40" fill="#DDFFDD" />
+      <circle cx="0" cy="0" r="30" fill="#CCFFCC" />
+      <circle cx="0" cy="0" r="20" fill="#BBFFBB" />
+      
+      <!-- 周圍小花 -->
+      <circle cx="50" cy="20" r="20" fill="#DDFFDD" />
+      <circle cx="50" cy="20" r="15" fill="#CCFFCC" />
+      <circle cx="50" cy="20" r="10" fill="#BBFFBB" />
+      
+      <circle cx="30" cy="60" r="25" fill="#DDFFDD" />
+      <circle cx="30" cy="60" r="18" fill="#CCFFCC" />
+      <circle cx="30" cy="60" r="12" fill="#BBFFBB" />
+      
+      <circle cx="-40" cy="40" r="22" fill="#DDFFDD" />
+      <circle cx="-40" cy="40" r="16" fill="#CCFFCC" />
+      <circle cx="-40" cy="40" r="10" fill="#BBFFBB" />
+      
+      <!-- 裝飾葉片 -->
+      <path d="M20,-30 C40,-10 70,0 100,10 C70,30 40,40 20,10 Z" fill="#A0D8A0" />
+      <path d="M-30,-20 C-50,0 -80,10 -110,20 C-80,40 -50,50 -30,20 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 右上角花朵群組 -->
+    <g transform="translate(300, -200)">
+      <!-- 主花朵 -->
+      <circle cx="0" cy="0" r="40" fill="#DDDDFF" />
+      <circle cx="0" cy="0" r="30" fill="#CCCCFF" />
+      <circle cx="0" cy="0" r="20" fill="#BBBBFF" />
+      
+      <!-- 周圍小花 -->
+      <circle cx="50" cy="-20" r="20" fill="#DDDDFF" />
+      <circle cx="50" cy="-20" r="15" fill="#CCCCFF" />
+      <circle cx="50" cy="-20" r="10" fill="#BBBBFF" />
+      
+      <circle cx="30" cy="-60" r="25" fill="#DDDDFF" />
+      <circle cx="30" cy="-60" r="18" fill="#CCCCFF" />
+      <circle cx="30" cy="-60" r="12" fill="#BBBBFF" />
+      
+      <circle cx="-40" cy="-40" r="22" fill="#DDDDFF" />
+      <circle cx="-40" cy="-40" r="16" fill="#CCCCFF" />
+      <circle cx="-40" cy="-40" r="10" fill="#BBBBFF" />
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,30 C-40,10 -70,0 -100,-10 C-70,-30 -40,-40 -20,-10 Z" fill="#A0D8A0" />
+      <path d="M20,30 C40,10 70,0 100,-10 C70,-30 40,-40 20,-10 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 左下角花朵群組 -->
+    <g transform="translate(-300, 200)">
+      <!-- 主花朵 -->
+      <circle cx="0" cy="0" r="40" fill="#FFFFDD" />
+      <circle cx="0" cy="0" r="30" fill="#FFFFCC" />
+      <circle cx="0" cy="0" r="20" fill="#FFFFBB" />
+      
+      <!-- 周圍小花 -->
+      <circle cx="-50" cy="20" r="20" fill="#FFFFDD" />
+      <circle cx="-50" cy="20" r="15" fill="#FFFFCC" />
+      <circle cx="-50" cy="20" r="10" fill="#FFFFBB" />
+      
+      <circle cx="-30" cy="60" r="25" fill="#FFFFDD" />
+      <circle cx="-30" cy="60" r="18" fill="#FFFFCC" />
+      <circle cx="-30" cy="60" r="12" fill="#FFFFBB" />
+      
+      <circle cx="40" cy="40" r="22" fill="#FFFFDD" />
+      <circle cx="40" cy="40" r="16" fill="#FFFFCC" />
+      <circle cx="40" cy="40" r="10" fill="#FFFFBB" />
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,-30 C-40,-10 -70,0 -100,10 C-70,30 -40,40 -20,10 Z" fill="#A0D8A0" />
+      <path d="M30,-20 C50,0 80,10 110,20 C80,40 50,50 30,20 Z" fill="#A0D8A0" />
+    </g>
+  </g>
+  
+  <!-- 中央文字區域背景 -->
+  <rect x="250" y="200" width="300" height="200" rx="20" ry="20" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="2" />
+  
+  <!-- 裝飾元素 -->
+  <circle cx="120" cy="120" r="5" fill="#FFDDDD" opacity="0.6" />
+  <circle cx="180" cy="220" r="8" fill="#DDFFDD" opacity="0.6" />
+  <circle cx="680" cy="180" r="7" fill="#DDDDFF" opacity="0.6" />
+  <circle cx="620" cy="420" r="6" fill="#FFFFDD" opacity="0.6" />
+  <circle cx="220" cy="520" r="9" fill="#FFDDDD" opacity="0.6" />
+</svg>

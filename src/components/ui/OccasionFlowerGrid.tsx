@@ -26,65 +26,72 @@ const OccasionFlowerGrid: React.FC<OccasionFlowerGridProps> = ({ activeCategory 
     {
       id: 1,
       name: '生日驚喜花束',
-      price: 45,
-      originalPrice: 55,
-      image: '/images/serene-bloom-1.png',
+      price: 1580,
+      originalPrice: 1880,
+      image: '/images/elegant-roses-bouquet.svg',
       occasions: ['生日慶祝', '節日祝福'],
       description: '繽紛色彩，為生日增添歡樂氣氛'
     },
     {
       id: 2,
       name: '浪漫紀念花束',
-      price: 65,
-      image: '/images/serene-bloom-2.png',
+      price: 1980,
+      originalPrice: 2380,
+      image: '/images/rose-romance-bg.svg',
       occasions: ['紀念日', '婚禮慶典'],
       description: '經典紅玫瑰，見證愛情的美好時刻'
     },
     {
       id: 3,
       name: '感謝心意花籃',
-      price: 38,
-      image: '/images/serene-bloom-3.png',
+      price: 1680,
+      originalPrice: 1980,
+      image: '/images/tulip-elegance-bg.svg',
       occasions: ['感謝致意', '開業祝賀'],
       description: '溫馨花籃，表達最真摯的謝意'
     },
     {
       id: 4,
       name: '康復祝福花束',
-      price: 42,
-      image: '/images/serene-bloom-4.png',
+      price: 1780,
+      originalPrice: 2080,
+      image: '/images/lily-serenity-bg.svg',
       occasions: ['探病慰問'],
       description: '清雅淡香，送上溫暖的關懷'
     },
     {
       id: 5,
       name: '節慶喜悅花籃',
-      price: 58,
-      image: '/images/serene-bloom-5.png',
+      price: 1880,
+      originalPrice: 2280,
+      image: '/images/sunflower-sunshine-bg.svg',
       occasions: ['節日祝福', '開業祝賀'],
       description: '豐盛花籃，慶祝每個重要節日'
     },
     {
       id: 6,
       name: '開業大吉花籃',
-      price: 88,
-      image: '/images/serene-bloom-6.png',
+      price: 2880,
+      originalPrice: 3380,
+      image: '/images/orchid-opulence-bg.svg',
       occasions: ['開業祝賀'],
       description: '氣派花籃，祝賀事業蒸蒸日上'
     },
     {
       id: 7,
       name: '畢業榮耀花束',
-      price: 48,
-      image: '/images/serene-bloom-7.png',
+      price: 1780,
+      originalPrice: 2180,
+      image: '/images/vibrant-hues-bg.svg',
       occasions: ['畢業典禮'],
       description: '向日葵花束，象徵前程似錦'
     },
     {
       id: 8,
       name: '婚禮祝福花束',
-      price: 78,
-      image: '/images/serene-bloom-8.png',
+      price: 2380,
+      originalPrice: 2880,
+      image: '/images/pastel-dreams-bg.svg',
       occasions: ['婚禮慶典'],
       description: '純白花束，見證愛情的神聖時刻'
     }
@@ -130,7 +137,7 @@ const OccasionFlowerGrid: React.FC<OccasionFlowerGridProps> = ({ activeCategory 
               
               {/* Discount Badge */}
               {flower.originalPrice && (
-                <div className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+                <div className="absolute top-2 left-2 bg-red-500 text-black text-xs px-2 py-1 rounded">
                   省 ${flower.originalPrice - flower.price}
                 </div>
               )}

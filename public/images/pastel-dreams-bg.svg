@@ -1,0 +1,152 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFF9FC" />
+  
+  <!-- 薰衣草群組 -->
+  <g transform="translate(400, 300)">
+    <!-- 主要薰衣草 -->
+    <g transform="translate(0, -20)">
+      <!-- 花序 -->
+      <path d="M0,0 C0,-80 10,-120 0,-160" stroke="#A0D8A0" stroke-width="4" fill="none" />
+      
+      <!-- 花朵群 -->
+      <g transform="translate(0, -160)">
+        <ellipse cx="0" cy="0" rx="15" ry="30" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-10" rx="12" ry="25" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(5, -150) rotate(10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-5, -145) rotate(-10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(8, -135) rotate(20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-8, -130) rotate(-20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(10, -120) rotate(25)">
+        <ellipse cx="0" cy="0" rx="8" ry="20" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-6" rx="6" ry="16" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-10, -115) rotate(-25)">
+        <ellipse cx="0" cy="0" rx="8" ry="20" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-6" rx="6" ry="16" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(12, -105) rotate(30)">
+        <ellipse cx="0" cy="0" rx="6" ry="18" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-5" rx="5" ry="14" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-12, -100) rotate(-30)">
+        <ellipse cx="0" cy="0" rx="6" ry="18" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-5" rx="5" ry="14" fill="#E6DBFF" />
+      </g>
+      
+      <!-- 葉片 -->
+      <path d="M0,-80 C-20,-85 -40,-80 -50,-70 C-40,-60 -20,-55 0,-60 Z" fill="#A0D8A0" />
+      <path d="M0,-100 C20,-105 40,-100 50,-90 C40,-80 20,-75 0,-80 Z" fill="#A0D8A0" />
+      <path d="M0,-120 C-15,-125 -30,-120 -40,-110 C-30,-100 -15,-95 0,-100 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 左側薰衣草 -->
+    <g transform="translate(-100, 20) scale(0.8)">
+      <!-- 花序 -->
+      <path d="M0,0 C0,-80 10,-120 0,-160" stroke="#A0D8A0" stroke-width="4" fill="none" />
+      
+      <!-- 花朵群 -->
+      <g transform="translate(0, -160)">
+        <ellipse cx="0" cy="0" rx="15" ry="30" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-10" rx="12" ry="25" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(5, -150) rotate(10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-5, -145) rotate(-10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(8, -135) rotate(20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-8, -130) rotate(-20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(10, -120) rotate(25)">
+        <ellipse cx="0" cy="0" rx="8" ry="20" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-6" rx="6" ry="16" fill="#E6DBFF" />
+      </g>
+      
+      <!-- 葉片 -->
+      <path d="M0,-80 C-20,-85 -40,-80 -50,-70 C-40,-60 -20,-55 0,-60 Z" fill="#A0D8A0" />
+      <path d="M0,-100 C20,-105 40,-100 50,-90 C40,-80 20,-75 0,-80 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 右側薰衣草 -->
+    <g transform="translate(100, 30) scale(0.85)">
+      <!-- 花序 -->
+      <path d="M0,0 C0,-80 10,-120 0,-160" stroke="#A0D8A0" stroke-width="4" fill="none" />
+      
+      <!-- 花朵群 -->
+      <g transform="translate(0, -160)">
+        <ellipse cx="0" cy="0" rx="15" ry="30" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-10" rx="12" ry="25" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(5, -150) rotate(10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-5, -145) rotate(-10)">
+        <ellipse cx="0" cy="0" rx="12" ry="25" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-8" rx="10" ry="20" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(8, -135) rotate(20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <g transform="translate(-8, -130) rotate(-20)">
+        <ellipse cx="0" cy="0" rx="10" ry="22" fill="#D8C2FF" />
+        <ellipse cx="0" cy="-7" rx="8" ry="18" fill="#E6DBFF" />
+      </g>
+      
+      <!-- 葉片 -->
+      <path d="M0,-80 C-20,-85 -40,-80 -50,-70 C-40,-60 -20,-55 0,-60 Z" fill="#A0D8A0" />
+      <path d="M0,-100 C20,-105 40,-100 50,-90 C40,-80 20,-75 0,-80 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 裝飾葉片 -->
+    <path d="M-80,120 C-100,70 -130,50 -180,40 C-130,20 -100,0 -80,50 Z" fill="#A0D8A0" transform="rotate(10)" />
+    <path d="M80,140 C100,90 130,70 180,60 C130,40 100,20 80,70 Z" fill="#A0D8A0" transform="rotate(-20)" />
+  </g>
+  
+  <!-- 裝飾元素 -->
+  <circle cx="120" cy="120" r="5" fill="#E6DBFF" opacity="0.6" />
+  <circle cx="180" cy="220" r="8" fill="#E6DBFF" opacity="0.6" />
+  <circle cx="680" cy="180" r="7" fill="#E6DBFF" opacity="0.6" />
+  <circle cx="620" cy="420" r="6" fill="#E6DBFF" opacity="0.6" />
+  <circle cx="220" cy="520" r="9" fill="#E6DBFF" opacity="0.6" />
+</svg>

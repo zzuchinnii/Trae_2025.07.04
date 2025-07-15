@@ -1,0 +1,50 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFF0F5" />
+  
+  <!-- 心理測驗圖標 -->
+  <g transform="translate(400, 300)">
+    <!-- 大腦圖標 -->
+    <g transform="scale(5)">
+      <path d="M0,-20 C-15,-20 -20,-10 -20,0 C-20,10 -15,20 0,20 C15,20 20,10 20,0 C20,-10 15,-20 0,-20 Z" fill="#FFD0E0" stroke="#FF80A0" stroke-width="2" />
+      <path d="M0,-20 C0,-15 -10,-10 -10,0 C-10,10 0,15 0,20" fill="none" stroke="#FF80A0" stroke-width="1.5" />
+      <path d="M0,-20 C0,-15 10,-10 10,0 C10,10 0,15 0,20" fill="none" stroke="#FF80A0" stroke-width="1.5" />
+      <path d="M-20,0 C-15,0 -10,-5 0,-5 C10,-5 15,0 20,0" fill="none" stroke="#FF80A0" stroke-width="1.5" />
+      <path d="M-20,0 C-15,0 -10,5 0,5 C10,5 15,0 20,0" fill="none" stroke="#FF80A0" stroke-width="1.5" />
+    </g>
+    
+    <!-- 心形圖標 -->
+    <g transform="translate(-60, -60) scale(2)">
+      <path d="M0,10 C-5,0 -15,-5 -15,5 C-15,10 -5,15 0,20 C5,15 15,10 15,5 C15,-5 5,0 0,10 Z" fill="#FF80A0" />
+    </g>
+    
+    <!-- 燈泡圖標 (代表思考和靈感) -->
+    <g transform="translate(60, -60) scale(2)">
+      <circle cx="0" cy="0" r="10" fill="#FFFF80" stroke="#FFD700" stroke-width="1" />
+      <path d="M0,10 L0,15 M-3,17 L3,17 M-2,19 L2,19" stroke="#FFD700" stroke-width="1.5" />
+      <path d="M-5,-5 L-8,-8 M5,-5 L8,-8 M-5,5 L-8,8 M5,5 L8,8 M-7,0 L-10,0 M7,0 L10,0 M0,-7 L0,-10" stroke="#FFFF80" stroke-width="1.5" />
+    </g>
+    
+    <!-- 花朵圖標 (代表個性和成長) -->
+    <g transform="translate(-60, 60) scale(2)">
+      <g>
+        <path d="M0,0 L5,-10 L0,-12 L-5,-10 Z" fill="#D0A0FF" transform="rotate(0)" />
+        <path d="M0,0 L5,-10 L0,-12 L-5,-10 Z" fill="#D0A0FF" transform="rotate(72)" />
+        <path d="M0,0 L5,-10 L0,-12 L-5,-10 Z" fill="#D0A0FF" transform="rotate(144)" />
+        <path d="M0,0 L5,-10 L0,-12 L-5,-10 Z" fill="#D0A0FF" transform="rotate(216)" />
+        <path d="M0,0 L5,-10 L0,-12 L-5,-10 Z" fill="#D0A0FF" transform="rotate(288)" />
+      </g>
+      <circle cx="0" cy="0" r="5" fill="#B080FF" />
+    </g>
+    
+    <!-- 星星圖標 (代表獨特性) -->
+    <g transform="translate(60, 60) scale(2)">
+      <path d="M0,-10 L2,-3 L9,-3 L4,1 L6,8 L0,4 L-6,8 L-4,1 L-9,-3 L-2,-3 Z" fill="#80C0FF" />
+    </g>
+  </g>
+  
+  <!-- 心理測驗文字 -->
+  <g transform="translate(400, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#FF6090">心理測驗</text>
+  </g>
+</svg>

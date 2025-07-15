@@ -58,7 +58,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'modern-minimalist-1',
       name: '純淨線條',
       price: 'NT$ 2,200',
-      image: '/images/serene-bloom-1.png',
+      image: '/images/serene-bloom-1.svg',
       style: '現代簡約',
       description: '簡潔線條與純淨色彩的完美結合，展現現代都市的優雅品味',
       onClick: () => router.push('/product/1')
@@ -67,7 +67,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'romantic-classic-1',
       name: '玫瑰浪漫',
       price: 'NT$ 3,500',
-      image: '/images/rose-romance-bg.png',
+      image: '/images/rose-romance-bg.svg',
       style: '浪漫經典',
       description: '經典玫瑰花束，傳遞永恆的愛意與浪漫情懷',
       onClick: () => router.push('/product/5')
@@ -76,7 +76,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'rustic-country-1',
       name: '向日葵陽光',
       price: 'NT$ 1,800',
-      image: '/images/sunflower-sunshine-bg.png',
+      image: '/images/sunflower-sunshine-bg.svg',
       style: '鄉村田園',
       description: '溫暖向日葵搭配田園風格包裝，帶來自然純樸的美好',
       onClick: () => router.push('/product/4')
@@ -85,7 +85,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'luxury-elegant-1',
       name: '蘭花華麗',
       price: 'NT$ 4,200',
-      image: '/images/orchid-opulence-bg.png',
+      image: '/images/orchid-opulence-bg.svg',
       style: '奢華典雅',
       description: '珍貴蘭花組合，彰顯高貴典雅的品味與地位',
       onClick: () => router.push('/product/13')
@@ -94,7 +94,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'modern-minimalist-2',
       name: '鬱金香優雅',
       price: 'NT$ 2,800',
-      image: '/images/tulip-elegance-bg.png',
+      image: '/images/tulip-elegance-bg.svg',
       style: '現代簡約',
       description: '優雅鬱金香的簡約設計，完美詮釋現代美學',
       onClick: () => router.push('/product/12')
@@ -103,7 +103,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'natural-wild-1',
       name: '繽紛色彩',
       price: 'NT$ 2,500',
-      image: '/images/vibrant-hues-bg.png',
+      image: '/images/vibrant-hues-bg.svg',
       style: '自然野趣',
       description: '繽紛野花組合，展現大自然的生命力與活力',
       onClick: () => router.push('/product/11')
@@ -112,7 +112,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'romantic-classic-2',
       name: '粉彩夢境',
       price: 'NT$ 3,200',
-      image: '/images/pastel-dreams-bg.png',
+      image: '/images/pastel-dreams-bg.svg',
       style: '浪漫經典',
       description: '柔美粉色調花束，營造夢幻浪漫的氛圍',
       onClick: () => router.push('/product/6')
@@ -121,7 +121,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'luxury-elegant-2',
       name: '康乃馨魅力',
       price: 'NT$ 3,800',
-      image: '/images/carnation-charm-bg.png',
+      image: '/images/carnation-charm-bg.svg',
       style: '奢華典雅',
       description: '精緻康乃馨搭配奢華包裝，展現優雅魅力',
       onClick: () => router.push('/product/2')
@@ -130,7 +130,7 @@ const StyleFlowerGrid: React.FC<StyleFlowerGridProps> = ({ selectedCategory = '�
       id: 'natural-wild-2',
       name: '百合寧靜',
       price: 'NT$ 2,900',
-      image: '/images/lily-serenity-bg.png',
+      image: '/images/lily-serenity-bg.svg',
       style: '自然野趣',
       description: '清雅百合花束，帶來寧靜自然的美好感受',
       onClick: () => router.push('/product/10')

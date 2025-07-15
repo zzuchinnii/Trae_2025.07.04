@@ -6,39 +6,39 @@
 // 花卉名稱與圖片路徑的映射表
 export const flowerToImageMap: Record<string, string> = {
   // 熱情奔放型花卉
-  '向日葵': '/images/sunflower-sunshine-bg.png',
-  '紅玫瑰': '/images/rose-romance-bg.png',
-  '橙色鬱金香': '/images/tulip-elegance-bg.png',
-  '火鶴花': '/images/vibrant-hues-bg.png',
+  '向日葵': '/images/sunflower-sunshine-bg.svg',
+  '紅玫瑰': '/images/rose-romance-bg.svg',
+  '橙色鬱金香': '/images/tulip-elegance-bg.svg',
+  '火鶴花': '/images/vibrant-hues-bg.svg',
   
   // 溫柔療癒型花卉
-  '薰衣草': '/images/pastel-dreams-bg.png',
-  '白玫瑰': '/images/elegant-roses-bouquet.png',
-  '滿天星': '/images/serene-bloom-1.png',
-  '洋甘菊': '/images/serene-bloom-2.png',
+  '薰衣草': '/images/pastel-dreams-bg.svg',
+  '白玫瑰': '/images/elegant-roses-bouquet.svg',
+  '滿天星': '/images/serene-bloom-1.svg',
+  '洋甘菊': '/images/serene-bloom-2.svg',
   
   // 浪漫優雅型花卉
-  '粉玫瑰': '/images/rose-romance-bg.png',
-  '牡丹': '/images/elegant-roses-bouquet.png',
-  '櫻花': '/images/pastel-dreams-bg.png',
-  '康乃馨': '/images/carnation-charm-bg.png',
+  '粉玫瑰': '/images/rose-romance-bg.svg',
+  '牡丹': '/images/elegant-roses-bouquet.svg',
+  '櫻花': '/images/pastel-dreams-bg.svg',
+  '康乃馨': '/images/carnation-charm-bg.svg',
   
   // 純真可愛型花卉
-  '雛菊': '/images/serene-bloom-3.png',
-  '小蒼蘭': '/images/lily-serenity-bg.png',
-  '風信子': '/images/pastel-dreams-bg.png',
-  '鈴蘭': '/images/serene-bloom-2.png',
+  '雛菊': '/images/serene-bloom-3.svg',
+  '小蒼蘭': '/images/lily-serenity-bg.svg',
+  '風信子': '/images/pastel-dreams-bg.svg',
+  '鈴蘭': '/images/serene-bloom-2.svg',
   
   // 神秘內斂型花卉
-  '鳶尾花': '/images/orchid-opulence-bg.png',
-  '紫玫瑰': '/images/rose-romance-bg.png',
-  '紫色鬱金香': '/images/tulip-elegance-bg.png',
-  '薊花': '/images/vibrant-hues-bg.png',
+  '鳶尾花': '/images/orchid-opulence-bg.svg',
+  '紫玫瑰': '/images/rose-romance-bg.svg',
+  '紫色鬱金香': '/images/tulip-elegance-bg.svg',
+  '薊花': '/images/vibrant-hues-bg.svg',
   
   // 溫暖關懷型花卉
-  '黃玫瑰': '/images/rose-romance-bg.png',
-  '金盞花': '/images/sunflower-sunshine-bg.png',
-  '萬壽菊': '/images/vibrant-hues-bg.png',
+  '黃玫瑰': '/images/rose-romance-bg.svg',
+  '金盞花': '/images/sunflower-sunshine-bg.svg',
+  '萬壽菊': '/images/vibrant-hues-bg.svg',
 };
 
 // 確保所有花卉都有對應的圖片
@@ -76,18 +76,18 @@ export const getImageByFlower = (flowerName: string): string => {
   // 檢查圖片路徑是否存在於 public 目錄中
   // 這裡只是記錄日誌，實際檢查需要在伺服器端進行
   const expectedPaths = [
-    '/images/sunflower-sunshine-bg.png',
-    '/images/rose-romance-bg.png',
-    '/images/tulip-elegance-bg.png',
-    '/images/vibrant-hues-bg.png',
-    '/images/pastel-dreams-bg.png',
-    '/images/elegant-roses-bouquet.png',
-    '/images/serene-bloom-1.png',
-    '/images/serene-bloom-2.png',
-    '/images/serene-bloom-3.png',
-    '/images/carnation-charm-bg.png',
-    '/images/lily-serenity-bg.png',
-    '/images/orchid-opulence-bg.png'
+    '/images/sunflower-sunshine-bg.svg',
+    '/images/rose-romance-bg.svg',
+    '/images/tulip-elegance-bg.svg',
+    '/images/vibrant-hues-bg.svg',
+    '/images/pastel-dreams-bg.svg',
+    '/images/elegant-roses-bouquet.svg',
+    '/images/serene-bloom-1.svg',
+    '/images/serene-bloom-2.svg',
+    '/images/serene-bloom-3.svg',
+    '/images/carnation-charm-bg.svg',
+    '/images/lily-serenity-bg.svg',
+    '/images/orchid-opulence-bg.svg'
   ];
   
   if (!expectedPaths.includes(imagePath)) {

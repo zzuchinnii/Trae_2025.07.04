@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#FFE4E1" />
+  <g transform="translate(200, 150)">
+    <path d="M0,-50 C-50,-50 -50,50 0,50 C50,50 50,-50 0,-50 Z" fill="#FF69B4" />
+    <path d="M-20,-30 C-40,-30 -40,30 -20,30 C0,30 0,-30 -20,-30 Z" fill="#FF1493" />
+    <path d="M20,-30 C0,-30 0,30 20,30 C40,30 40,-30 20,-30 Z" fill="#FF1493" />
+    <circle cx="0" cy="0" r="15" fill="#FFD700" />
+  </g>
+  <text x="200" y="250" font-family="Arial" font-size="24" text-anchor="middle" fill="#8A6170">浪漫系列</text>
+</svg>

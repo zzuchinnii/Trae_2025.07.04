@@ -7,7 +7,7 @@ const products = {
     name: '清新小花束',
     price: 680,
     description: '簡約清新，適合日常表達心意。精選當季花材，以淡雅色調為主，營造自然清新的氛圍。',
-    images: ['/images/elegant-roses-bouquet.png', '/placeholder.svg', '/placeholder.svg'],
+    images: ['/images/elegant-roses-bouquet.svg', '/placeholder.svg', '/placeholder.svg'],
     category: 'bouquet',
     sizes: ['小', '中', '大'],
     details: {

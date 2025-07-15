@@ -1,0 +1,174 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8FFFC" />
+  
+  <!-- 滿天星群組 -->
+  <g transform="translate(400, 300)">
+    <!-- 中央花簇 -->
+    <g>
+      <!-- 花朵群 -->
+      <g transform="translate(0, -20)">
+        <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="3" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(15, -15)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-15, -10)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(25, 0)">
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-25, 5)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(10, 15)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-10, 20)">
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+    </g>
+    
+    <!-- 左側花簇 -->
+    <g transform="translate(-100, 0) scale(0.9)">
+      <!-- 花朵群 -->
+      <g transform="translate(0, -20)">
+        <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="3" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(15, -15)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-15, -10)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(25, 0)">
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-25, 5)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(10, 15)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+    </g>
+    
+    <!-- 右側花簇 -->
+    <g transform="translate(100, 20) scale(0.85)">
+      <!-- 花朵群 -->
+      <g transform="translate(0, -20)">
+        <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="3" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(15, -15)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-15, -10)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(25, 0)">
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-25, 5)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+    </g>
+    
+    <!-- 上方花簇 -->
+    <g transform="translate(30, -80) scale(0.8)">
+      <!-- 花朵群 -->
+      <g transform="translate(0, -20)">
+        <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="3" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(15, -15)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-15, -10)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(25, 0)">
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+    </g>
+    
+    <!-- 下方花簇 -->
+    <g transform="translate(-20, 80) scale(0.75)">
+      <!-- 花朵群 -->
+      <g transform="translate(0, -20)">
+        <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="3" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(15, -15)">
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2" fill="#FFFFCC" />
+      </g>
+      
+      <g transform="translate(-15, -10)">
+        <circle cx="0" cy="0" r="7" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="2.5" fill="#FFFFCC" />
+      </g>
+    </g>
+    
+    <!-- 連接線 -->
+    <path d="M0,0 C-50,0 -80,-10 -100,0" stroke="#A0D8A0" stroke-width="1.5" fill="none" />
+    <path d="M0,0 C50,10 80,15 100,20" stroke="#A0D8A0" stroke-width="1.5" fill="none" />
+    <path d="M0,0 C10,-40 20,-60 30,-80" stroke="#A0D8A0" stroke-width="1.5" fill="none" />
+    <path d="M0,0 C-10,40 -15,60 -20,80" stroke="#A0D8A0" stroke-width="1.5" fill="none" />
+    
+    <!-- 裝飾葉片 -->
+    <path d="M-60,100 C-80,50 -110,30 -160,20 C-110,0 -80,-20 -60,30 Z" fill="#A0D8A0" transform="rotate(10) scale(0.7)" />
+    <path d="M60,120 C80,70 110,50 160,40 C110,20 80,0 60,50 Z" fill="#A0D8A0" transform="rotate(-20) scale(0.7)" />
+  </g>
+  
+  <!-- 裝飾元素 -->
+  <circle cx="100" cy="100" r="3" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="150" cy="200" r="4" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="700" cy="150" r="3.5" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="650" cy="400" r="3" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="200" cy="500" r="4.5" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="300" cy="150" r="3" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="450" cy="250" r="2.5" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="550" cy="350" r="3" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="250" cy="450" r="2" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="350" cy="100" r="2.5" fill="#FFFFFF" opacity="0.8" />
+</svg>

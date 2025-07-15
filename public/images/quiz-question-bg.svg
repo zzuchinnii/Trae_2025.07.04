@@ -1,0 +1,43 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8F0FF" />
+  
+  <!-- 問答圖標 -->
+  <g transform="translate(400, 300) scale(10)">
+    <!-- 問號圖標 -->
+    <g transform="translate(0, -10)">
+      <circle cx="0" cy="0" r="15" fill="#E6D0FF" />
+      <path d="M-5,-5 Q-5,-10 0,-10 Q5,-10 5,-5 Q5,0 0,0 L0,5" stroke="#9966CC" stroke-width="2" fill="none" />
+      <circle cx="0" cy="10" r="1.5" fill="#9966CC" />
+    </g>
+    
+    <!-- 裝飾花朵 - 小花 -->
+    <g transform="translate(-20, -20) scale(0.5)">
+      <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FFBBBB" />
+      <circle cx="0" cy="0" r="10" fill="#FF8888" />
+    </g>
+    
+    <!-- 裝飾花朵 - 小花 -->
+    <g transform="translate(20, -20) scale(0.5)">
+      <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#BBFFBB" />
+      <circle cx="0" cy="0" r="10" fill="#88FF88" />
+    </g>
+    
+    <!-- 裝飾花朵 - 小花 -->
+    <g transform="translate(-20, 20) scale(0.5)">
+      <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#BBBBFF" />
+      <circle cx="0" cy="0" r="10" fill="#8888FF" />
+    </g>
+    
+    <!-- 裝飾花朵 - 小花 -->
+    <g transform="translate(20, 20) scale(0.5)">
+      <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FFFFBB" />
+      <circle cx="0" cy="0" r="10" fill="#FFFF88" />
+    </g>
+  </g>
+  
+  <!-- 問答文字 -->
+  <g transform="translate(400, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#9966CC">問答測驗</text>
+  </g>
+</svg>

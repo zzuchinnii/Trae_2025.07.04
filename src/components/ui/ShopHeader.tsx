@@ -43,6 +43,28 @@ const ShopHeader: React.FC = () => {
     }
   };
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category);
+    
+    // 根據不同分類導航到相應頁面
+    switch(category) {
+      case '主題系列':
+        router.push('/shop/themes');
+        break;
+      case '依主花分類':
+        router.push('/shop/flower-types');
+        break;
+      case '依顏色分類':
+        router.push('/shop/colors');
+        break;
+      case '客製工作室':
+        router.push('/shop/custom');
+        break;
+      default:
+        router.push('/shop');
+    }
+  };
+
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       handleSearch();
@@ -103,7 +125,7 @@ const ShopHeader: React.FC = () => {
               key={category}
               title={category}
               isActive={activeCategory === category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
             />
           ))}
         </div>

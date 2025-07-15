@@ -1,0 +1,55 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F5FFF5" />
+  
+  <!-- 風格選購圖標 -->
+  <g transform="translate(400, 300)">
+    <!-- 調色板圖標 (代表風格和設計) -->
+    <g transform="scale(5)">
+      <path d="M0,-20 C-15,-20 -25,-10 -25,0 C-25,10 -15,20 0,20 C15,20 25,10 25,0 C25,-10 15,-20 0,-20 Z" fill="#FFFFFF" stroke="#60A060" stroke-width="1.5" />
+      
+      <!-- 調色板顏色點 -->
+      <circle cx="-15" cy="-5" r="5" fill="#FF6080" />
+      <circle cx="-10" cy="8" r="5" fill="#FFA040" />
+      <circle cx="5" cy="12" r="5" fill="#60A0FF" />
+      <circle cx="15" cy="0" r="5" fill="#A0C060" />
+      <circle cx="5" cy="-12" r="5" fill="#D080FF" />
+      
+      <!-- 畫筆 -->
+      <rect x="-3" y="-10" width="6" height="30" rx="2" ry="2" transform="rotate(30)" fill="#A08060" />
+      <path d="M8,17 L12,13 L14,15 L10,19 Z" fill="#A08060" />
+      <path d="M12,13 L14,15 L20,9 L18,7 Z" fill="#FFFF80" />
+    </g>
+    
+    <!-- 現代簡約風格圖標 -->
+    <g transform="translate(-60, -60) scale(2)">
+      <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#60A060" stroke-width="1.5" />
+      <line x1="-5" y1="-5" x2="5" y2="5" stroke="#60A060" stroke-width="1.5" />
+      <line x1="-5" y1="5" x2="5" y2="-5" stroke="#60A060" stroke-width="1.5" />
+    </g>
+    
+    <!-- 浪漫風格圖標 -->
+    <g transform="translate(60, -60) scale(2)">
+      <path d="M0,10 C-10,-5 -15,-5 -10,5 C-5,15 0,15 0,10 C0,15 5,15 10,5 C15,-5 10,-5 0,10 Z" fill="#FFA0C0" />
+    </g>
+    
+    <!-- 鄉村風格圖標 -->
+    <g transform="translate(-60, 60) scale(2)">
+      <path d="M-10,5 L0,-10 L10,5 Z" fill="none" stroke="#A08060" stroke-width="1.5" />
+      <rect x="-5" y="5" width="10" height="8" fill="none" stroke="#A08060" stroke-width="1.5" />
+      <rect x="-2" y="9" width="4" height="4" fill="none" stroke="#A08060" stroke-width="1" />
+    </g>
+    
+    <!-- 東方風格圖標 -->
+    <g transform="translate(60, 60) scale(2)">
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#FF4040" stroke-width="1.5" />
+      <path d="M0,-10 C-5,-8 -8,-5 -10,0 C-8,5 -5,8 0,10 C5,8 8,5 10,0 C8,-5 5,-8 0,-10 Z" fill="none" stroke="#FF4040" stroke-width="1" />
+      <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="#FF4040" stroke-width="1" />
+    </g>
+  </g>
+  
+  <!-- 風格選購文字 -->
+  <g transform="translate(400, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#60A060">風格選購</text>
+  </g>
+</svg>

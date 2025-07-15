@@ -25,9 +25,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({
   productName = "寧靜花束",
   description = "一個寧靜的花藝作品，以柔和的粉彩色調和精緻的花朵為特色，完美表達平靜與欽佩之意。",
   images = [
-    "/images/serene-bloom-1.png",
-    "/images/serene-bloom-2.png",
-    "/images/serene-bloom-3.png"
+    "/images/serene-bloom-1.svg",
+    "/images/serene-bloom-2.svg",
+    "/images/serene-bloom-3.svg"
   ],
   price = 1500,
   sizes = ['小', '中', '大'],

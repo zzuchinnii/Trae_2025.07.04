@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F0F8FF" />
+  <!-- Hydrangea Flower -->
+  <g transform="translate(200, 150)">
+    <!-- Flower Clusters -->
+    <g>
+      <!-- Center Cluster -->
+      <g transform="translate(0, -20)">
+        <circle cx="-10" cy="-10" r="8" fill="#B0C4DE" />
+        <circle cx="10" cy="-10" r="8" fill="#9FB6CD" />
+        <circle cx="0" cy="0" r="8" fill="#B0C4DE" />
+        <circle cx="-10" cy="10" r="8" fill="#9FB6CD" />
+        <circle cx="10" cy="10" r="8" fill="#B0C4DE" />
+      </g>
+      
+      <!-- Top Cluster -->
+      <g transform="translate(0, -50)">
+        <circle cx="-8" cy="-8" r="7" fill="#9FB6CD" />
+        <circle cx="8" cy="-8" r="7" fill="#B0C4DE" />
+        <circle cx="0" cy="0" r="7" fill="#9FB6CD" />
+        <circle cx="-8" cy="8" r="7" fill="#B0C4DE" />
+        <circle cx="8" cy="8" r="7" fill="#9FB6CD" />
+      </g>
+      
+      <!-- Left Cluster -->
+      <g transform="translate(-35, -20)">
+        <circle cx="-8" cy="-8" r="7" fill="#B0C4DE" />
+        <circle cx="8" cy="-8" r="7" fill="#9FB6CD" />
+        <circle cx="0" cy="0" r="7" fill="#B0C4DE" />
+        <circle cx="-8" cy="8" r="7" fill="#9FB6CD" />
+        <circle cx="8" cy="8" r="7" fill="#B0C4DE" />
+      </g>
+      
+      <!-- Right Cluster -->
+      <g transform="translate(35, -20)">
+        <circle cx="-8" cy="-8" r="7" fill="#9FB6CD" />
+        <circle cx="8" cy="-8" r="7" fill="#B0C4DE" />
+        <circle cx="0" cy="0" r="7" fill="#9FB6CD" />
+        <circle cx="-8" cy="8" r="7" fill="#B0C4DE" />
+        <circle cx="8" cy="8" r="7" fill="#9FB6CD" />
+      </g>
+      
+      <!-- Bottom Left Cluster -->
+      <g transform="translate(-20, 10)">
+        <circle cx="-6" cy="-6" r="6" fill="#B0C4DE" />
+        <circle cx="6" cy="-6" r="6" fill="#9FB6CD" />
+        <circle cx="0" cy="0" r="6" fill="#B0C4DE" />
+        <circle cx="-6" cy="6" r="6" fill="#9FB6CD" />
+        <circle cx="6" cy="6" r="6" fill="#B0C4DE" />
+      </g>
+      
+      <!-- Bottom Right Cluster -->
+      <g transform="translate(20, 10)">
+        <circle cx="-6" cy="-6" r="6" fill="#9FB6CD" />
+        <circle cx="6" cy="-6" r="6" fill="#B0C4DE" />
+        <circle cx="0" cy="0" r="6" fill="#9FB6CD" />
+        <circle cx="-6" cy="6" r="6" fill="#B0C4DE" />
+        <circle cx="6" cy="6" r="6" fill="#9FB6CD" />
+      </g>
+    </g>
+    
+    <!-- Stem -->
+    <rect x="-3" y="20" width="6" height="100" fill="#2E8B57" />
+    
+    <!-- Leaves -->
+    <path d="M-3,40 C-40,30 -40,70 -3,60 Z" fill="#2E8B57" />
+    <path d="M3,80 C40,70 40,110 3,100 Z" fill="#2E8B57" />
+  </g>
+  <text x="200" y="270" font-family="Arial" font-size="24" text-anchor="middle" fill="#8A6170">繡球花</text>
+</svg>

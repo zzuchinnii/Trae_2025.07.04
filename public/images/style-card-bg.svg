@@ -1,0 +1,207 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFFCF9" />
+  
+  <!-- 裝飾花朵和葉子 -->
+  <g transform="translate(400, 300)">
+    <!-- 左上角花朵群組 - 混合花卉風格 -->
+    <g transform="translate(-300, -200)">
+      <!-- 主花朵 - 玫瑰風格 -->
+      <g transform="scale(0.8)">
+        <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FF9999" />
+        <path d="M0,0 C-8,-16 -24,-24 -32,-8 C-40,8 -24,24 -8,32 C8,40 24,24 32,8 C40,-8 24,-24 8,-32 C-8,-40 -24,-24 -32,-8 Z" fill="#FF8888" />
+        <path d="M0,0 C-6,-12 -18,-18 -24,-6 C-30,6 -18,18 -6,24 C6,30 18,18 24,6 C30,-6 18,-18 6,-24 C-6,-30 -18,-18 -24,-6 Z" fill="#FF7777" />
+        <circle cx="0" cy="0" r="10" fill="#FF6666" />
+      </g>
+      
+      <!-- 周圍小花 - 簡化的花朵 -->
+      <g transform="translate(-50, -20) scale(0.5)">
+        <g>
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(0)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(60)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(120)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(180)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(240)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(300)" />
+        </g>
+        <circle cx="0" cy="0" r="15" fill="#996633" />
+      </g>
+      
+      <g transform="translate(-30, -60) scale(0.6)">
+        <path d="M0,0 C-30,-40 -40,-100 -20,-150 C0,-180 20,-180 40,-150 C60,-100 50,-40 20,0 Z" fill="#BB88FF" />
+        <path d="M0,0 C30,-40 40,-100 20,-150 C0,-180 -20,-180 -40,-150 C-60,-100 -50,-40 -20,0 Z" fill="#AA77FF" />
+      </g>
+      
+      <g transform="translate(40, -40) scale(0.55)">
+        <g>
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(0)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(45)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(90)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(135)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(180)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(225)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(270)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(315)" />
+        </g>
+        <circle cx="0" cy="0" r="15" fill="#FFFF66" />
+      </g>
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,30 C-40,10 -70,0 -100,-10 C-70,-30 -40,-40 -20,-10 Z" fill="#A0D8A0" />
+      <path d="M30,20 C50,0 80,-10 110,-20 C80,-40 50,-50 30,-20 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 右下角花朵群組 - 混合花卉風格 -->
+    <g transform="translate(300, 200)">
+      <!-- 主花朵 - 鬱金香風格 -->
+      <g transform="scale(0.8)">
+        <path d="M0,0 C-30,-40 -40,-100 -20,-150 C0,-180 20,-180 40,-150 C60,-100 50,-40 20,0 Z" fill="#FF9933" />
+        <path d="M0,0 C30,-40 40,-100 20,-150 C0,-180 -20,-180 -40,-150 C-60,-100 -50,-40 -20,0 Z" fill="#FF8822" />
+        <path d="M0,0 C-10,-40 -10,-100 0,-150 C10,-180 20,-180 30,-150 C40,-100 30,-40 10,0 Z" fill="#FFAA44" transform="translate(-10, 0)" />
+      </g>
+      
+      <!-- 周圍小花 -->
+      <g transform="translate(50, 20) scale(0.4)">
+        <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FF9999" />
+        <circle cx="0" cy="0" r="10" fill="#FF7777" />
+      </g>
+      
+      <g transform="translate(30, 60) scale(0.5)">
+        <g>
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(0)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(45)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(90)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(135)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(180)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(225)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(270)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(315)" />
+        </g>
+        <circle cx="0" cy="0" r="15" fill="#FFFF66" />
+      </g>
+      
+      <g transform="translate(-40, 40) scale(0.45)">
+        <g>
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(0)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(60)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(120)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(180)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(240)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(300)" />
+        </g>
+        <circle cx="0" cy="0" r="15" fill="#996633" />
+      </g>
+      
+      <!-- 裝飾葉片 -->
+      <path d="M20,-30 C40,-10 70,0 100,10 C70,30 40,40 20,10 Z" fill="#A0D8A0" />
+      <path d="M-30,-20 C-50,0 -80,10 -110,20 C-80,40 -50,50 -30,20 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 右上角花朵群組 - 混合花卉風格 -->
+    <g transform="translate(300, -200)">
+      <!-- 主花朵 - 向日葵風格 -->
+      <g transform="scale(0.8)">
+        <g>
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(0)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(30)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(60)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(90)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(120)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(150)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(180)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(210)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(240)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(270)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(300)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(330)" />
+        </g>
+        <circle cx="0" cy="0" r="20" fill="#996633" />
+        <circle cx="0" cy="0" r="15" fill="#774422" />
+      </g>
+      
+      <!-- 周圍小花 -->
+      <g transform="translate(50, -20) scale(0.4)">
+        <path d="M0,0 C-30,-40 -40,-100 -20,-150 C0,-180 20,-180 40,-150 C60,-100 50,-40 20,0 Z" fill="#BB88FF" />
+        <path d="M0,0 C30,-40 40,-100 20,-150 C0,-180 -20,-180 -40,-150 C-60,-100 -50,-40 -20,0 Z" fill="#AA77FF" />
+      </g>
+      
+      <g transform="translate(30, -60) scale(0.5)">
+        <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FF9999" />
+        <circle cx="0" cy="0" r="10" fill="#FF7777" />
+      </g>
+      
+      <g transform="translate(-40, -40) scale(0.45)">
+        <path d="M0,0 C-30,-40 -40,-100 -20,-150 C0,-180 20,-180 40,-150 C60,-100 50,-40 20,0 Z" fill="#FF9933" />
+        <path d="M0,0 C30,-40 40,-100 20,-150 C0,-180 -20,-180 -40,-150 C-60,-100 -50,-40 -20,0 Z" fill="#FF8822" />
+      </g>
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,30 C-40,10 -70,0 -100,-10 C-70,-30 -40,-40 -20,-10 Z" fill="#A0D8A0" />
+      <path d="M20,30 C40,10 70,0 100,-10 C70,-30 40,-40 20,-10 Z" fill="#A0D8A0" />
+    </g>
+    
+    <!-- 左下角花朵群組 - 混合花卉風格 -->
+    <g transform="translate(-300, 200)">
+      <!-- 主花朵 - 雛菊風格 -->
+      <g transform="scale(0.8)">
+        <g>
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(0)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(22.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(45)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(67.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(90)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(112.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(135)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(157.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(180)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(202.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(225)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(247.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(270)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(292.5)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(315)" />
+          <path d="M0,0 L25,-50 L0,-60 L-25,-50 Z" fill="#FFFFFF" transform="rotate(337.5)" />
+        </g>
+        <circle cx="0" cy="0" r="20" fill="#FFFF66" />
+        <circle cx="0" cy="0" r="15" fill="#FFFF33" />
+      </g>
+      
+      <!-- 周圍小花 -->
+      <g transform="translate(-50, 20) scale(0.4)">
+        <g>
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(0)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(60)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(120)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(180)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(240)" />
+          <path d="M0,0 L20,-40 L0,-45 L-20,-40 Z" fill="#FFDD44" transform="rotate(300)" />
+        </g>
+        <circle cx="0" cy="0" r="15" fill="#996633" />
+      </g>
+      
+      <g transform="translate(-30, 60) scale(0.5)">
+        <path d="M0,0 C-30,-40 -40,-100 -20,-150 C0,-180 20,-180 40,-150 C60,-100 50,-40 20,0 Z" fill="#FF9933" />
+        <path d="M0,0 C30,-40 40,-100 20,-150 C0,-180 -20,-180 -40,-150 C-60,-100 -50,-40 -20,0 Z" fill="#FF8822" />
+      </g>
+      
+      <g transform="translate(40, 40) scale(0.45)">
+        <path d="M0,0 C-10,-20 -30,-30 -40,-10 C-50,10 -30,30 -10,40 C10,50 30,30 40,10 C50,-10 30,-30 10,-40 C-10,-50 -30,-30 -40,-10 Z" fill="#FF9999" />
+        <circle cx="0" cy="0" r="10" fill="#FF7777" />
+      </g>
+      
+      <!-- 裝飾葉片 -->
+      <path d="M-20,-30 C-40,-10 -70,0 -100,10 C-70,30 -40,40 -20,10 Z" fill="#A0D8A0" />
+      <path d="M30,-20 C50,0 80,10 110,20 C80,40 50,50 30,20 Z" fill="#A0D8A0" />
+    </g>
+  </g>
+  
+  <!-- 中央文字區域背景 -->
+  <rect x="250" y="200" width="300" height="200" rx="20" ry="20" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="2" />
+  
+  <!-- 裝飾元素 -->
+  <circle cx="120" cy="120" r="5" fill="#FFDDDD" opacity="0.6" />
+  <circle cx="180" cy="220" r="8" fill="#FFFFDD" opacity="0.6" />
+  <circle cx="680" cy="180" r="7" fill="#DDDDFF" opacity="0.6" />
+  <circle cx="620" cy="420" r="6" fill="#DDFFDD" opacity="0.6" />
+  <circle cx="220" cy="520" r="9" fill="#FFDDDD" opacity="0.6" />
+</svg>

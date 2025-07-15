@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F0F8FF" />
+  <!-- Sympathy Bouquet -->
+  <g transform="translate(200, 150)">
+    <!-- White Lily -->
+    <path d="M0,-60 C-20,-60 -20,-20 0,-20 C20,-20 20,-60 0,-60 Z" fill="#FFFFFF" stroke="#DDDDDD" />
+    <path d="M-30,-40 C-50,-40 -50,0 -30,0 C-10,0 -10,-40 -30,-40 Z" fill="#FFFFFF" stroke="#DDDDDD" />
+    <path d="M30,-40 C10,-40 10,0 30,0 C50,0 50,-40 30,-40 Z" fill="#FFFFFF" stroke="#DDDDDD" />
+    
+    <!-- Stem and Leaves -->
+    <rect x="-3" y="-20" width="6" height="80" fill="#2E8B57" />
+    <path d="M-3,10 C-30,0 -30,30 -3,20 Z" fill="#2E8B57" />
+    <path d="M3,30 C30,20 30,50 3,40 Z" fill="#2E8B57" />
+    
+    <!-- Heart Symbol -->
+    <g transform="translate(60, -30)">
+      <path d="M0,10 C-10,-10 -30,0 -20,20 C-10,40 0,50 0,50 C0,50 10,40 20,20 C30,0 10,-10 0,10 Z" fill="#FFB6C1" opacity="0.7" />
+    </g>
+  </g>
+  <text x="200" y="250" font-family="Arial" font-size="24" text-anchor="middle" fill="#8A6170">關懷系列</text>
+</svg>
