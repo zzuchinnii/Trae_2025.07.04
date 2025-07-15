@@ -25,7 +25,7 @@ const FlowerCard: React.FC<FlowerCardProps> = ({ title, backgroundImage, onClick
         />
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-3">
-        <h3 className="text-sm font-semibold text-white drop-shadow-lg">
+        <h3 className="text-sm font-semibold text-black drop-shadow-lg">
           {title}
         </h3>
       </div>
@@ -39,42 +39,42 @@ const FlowerGrid: React.FC = () => {
   const flowerCollections = [
     {
       title: "玫瑰浪漫",
-      backgroundImage: "/images/rose-romance-bg.png",
+      backgroundImage: "/images/rose-romance-bg.svg",
       onClick: () => router.push('/product/5')
     },
     {
       title: "鬱金香雅致",
-      backgroundImage: "/images/tulip-elegance-bg.png",
+      backgroundImage: "/images/tulip-elegance-bg.svg",
       onClick: () => router.push('/product/12')
     },
     {
       title: "粉彩夢境",
-      backgroundImage: "/images/pastel-dreams-bg.png",
+      backgroundImage: "/images/pastel-dreams-bg.svg",
       onClick: () => router.push('/product/11')
     },
     {
       title: "繽紛色彩",
-      backgroundImage: "/images/vibrant-hues-bg.png",
+      backgroundImage: "/images/vibrant-hues-bg.svg",
       onClick: () => router.push('/product/11')
     },
     {
       title: "蘭花華麗",
-      backgroundImage: "/images/orchid-opulence-bg.png",
+      backgroundImage: "/images/orchid-opulence-bg.svg",
       onClick: () => router.push('/product/13')
     },
     {
       title: "向日葵陽光",
-      backgroundImage: "/images/sunflower-sunshine-bg.png",
+      backgroundImage: "/images/sunflower-sunshine-bg.svg",
       onClick: () => router.push('/product/4')
     },
     {
       title: "寧靜花束",
-      backgroundImage: "/images/serene-bloom-1.png",
+      backgroundImage: "/images/serene-bloom-1.svg",
       onClick: () => router.push('/product/1')
     },
     {
       title: "康乃馨魅力",
-      backgroundImage: "/images/carnation-charm-bg.png",
+      backgroundImage: "/images/carnation-charm-bg.svg",
       onClick: () => router.push('/product/2')
     }
   ];

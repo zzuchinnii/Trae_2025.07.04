@@ -35,44 +35,53 @@ const featuredFlowers: FeatureCard[] = [
 
 export default function HeroSection() {
   return (
-    <div className="bg-white px-4 py-8 space-y-8">
+    <div className="bg-white px-4 py-8 space-y-6 relative z-10">
       {/* Header with Search */}
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-neutral-900">Petaloom</h1>
-        <div className="flex items-center bg-neutral-100 rounded-xl px-4 py-2">
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center bg-neutral-100 rounded-xl px-4 py-2 w-full">
           <Image
             src="/icons/search-icon.svg"
             alt="Search"
             width={18}
             height={18}
-            className="opacity-60"
+            className="opacity-60 mr-2"
+          />
+          <input 
+            type="text" 
+            placeholder="搜尋花卉..." 
+            className="bg-transparent outline-none text-sm w-full"
           />
         </div>
       </div>
 
-      {/* Spring Blooms Banner */}
-      <div className="bg-accent-500 text-white rounded-xl px-6 py-4">
-        <h2 className="text-lg font-semibold">春日花語</h2>
-      </div>
-
-
-
       {/* Featured Flowers Section */}
-      <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-neutral-900">精選花卉</h3>
+      <div className="space-y-4 mt-6">
+        <div className="flex items-center justify-between">
+          <h3 className="text-xl font-semibold text-neutral-900">精選花卉</h3>
+        </div>
         
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-4 mt-2">
           {featuredFlowers.map((flower) => (
-            <div 
+            <Link 
               key={flower.id}
-              className="bg-white border border-neutral-200 rounded-lg p-4 space-y-3"
+              href={`/shop/flower/${flower.id}`}
+              className="relative rounded-xl overflow-hidden cursor-pointer transition-transform hover:scale-105 h-40"
             >
-              <div className={`${flower.color} rounded-xl h-32 w-full`}></div>
-              <div className="space-y-1">
-                <h5 className="font-semibold text-neutral-900">{flower.title}</h5>
-                <p className="text-sm text-neutral-600">{flower.description}</p>
+              <div className="relative h-full w-full">
+                <Image
+                  src={flower.id === 'lilies' ? '/images/flower-lily.svg' : 
+                       flower.id === 'tulips' ? '/images/flower-tulip.svg' : 
+                       '/images/flower-rose.svg'}
+                  alt={flower.title}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-end p-4">
+                  <h5 className="font-semibold text-black text-lg">{flower.title}</h5>
+                  <p className="text-sm text-black opacity-90">{flower.description}</p>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
