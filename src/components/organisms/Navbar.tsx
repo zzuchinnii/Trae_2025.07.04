@@ -8,8 +8,26 @@ import Logo from '../atoms/Logo';
 import { useCartStore } from '@/lib/store';
 
 const navigation = [
-  { name: '智能選花', href: '/quiz' },
-  { name: '所有花禮', href: '/shop' },
+  { 
+    name: '智能選花', 
+    href: '#',
+    dropdown: [
+      { name: '問答：找到您的花卉', href: '/quiz' },
+      { name: '心理測驗：找到你的命定花卉', href: '/personality-quiz' },
+      { name: '依場合選購', href: '/shop/occasion' },
+      { name: '依風格選購', href: '/shop/style' },
+    ] 
+  },
+  { 
+    name: '所有花禮', 
+    href: '#',
+    dropdown: [
+      { name: '主題系列', href: '/shop/themes' },
+      { name: '依主花分類', href: '/shop/flower-types' },
+      { name: '依顏色分類', href: '/shop/colors' },
+      { name: '客製工作室', href: '/shop/custom' },
+    ] 
+  },
 ];
 
 function classNames(...classes: string[]) {
@@ -37,13 +55,53 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      href={item.href}
-                      className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-                    >
-                      {item.name}
-                    </Link>
+                    item.dropdown ? (
+                      <Menu as="div" className="relative" key={item.name}>
+                        <Menu.Button className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
+                          {item.name}
+                          <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </Menu.Button>
+                        <Transition
+                          as={Fragment}
+                          enter="transition ease-out duration-100"
+                          enterFrom="transform opacity-0 scale-95"
+                          enterTo="transform opacity-100 scale-100"
+                          leave="transition ease-in duration-75"
+                          leaveFrom="transform opacity-100 scale-100"
+                          leaveTo="transform opacity-0 scale-95"
+                        >
+                          <Menu.Items className="absolute left-0 z-10 mt-2 w-56 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <div className="py-1">
+                              {item.dropdown.map((dropdownItem) => (
+                                <Menu.Item key={dropdownItem.name}>
+                                  {({ active }) => (
+                                    <Link
+                                      href={dropdownItem.href}
+                                      className={classNames(
+                                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                        'block px-4 py-2 text-sm'
+                                      )}
+                                    >
+                                      {dropdownItem.name}
+                                    </Link>
+                                  )}
+                                </Menu.Item>
+                              ))}
+                            </div>
+                          </Menu.Items>
+                        </Transition>
+                      </Menu>
+                    ) : (
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                      >
+                        {item.name}
+                      </Link>
+                    )
                   ))}
                 </div>
               </div>
@@ -91,14 +149,37 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 pt-2 pb-3">
               {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-                >
-                  {item.name}
-                </Disclosure.Button>
+                item.dropdown ? (
+                  <div key={item.name}>
+                    <Disclosure.Button
+                      as="div"
+                      className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                    >
+                      {item.name}
+                    </Disclosure.Button>
+                    <div className="pl-6 space-y-1">
+                      {item.dropdown.map((dropdownItem) => (
+                        <Disclosure.Button
+                          key={dropdownItem.name}
+                          as="a"
+                          href={dropdownItem.href}
+                          className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                        >
+                          {dropdownItem.name}
+                        </Disclosure.Button>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                )
               ))}
             </div>
             <div className="border-t border-gray-200 pt-4 pb-3">
