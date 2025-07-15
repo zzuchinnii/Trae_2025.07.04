@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
+import FlowerButton from './FlowerButton';
 
 // 定義問題類型
 interface Question {
@@ -226,9 +227,11 @@ export default function PersonalityQuiz() {
             <h3 className="text-xl font-semibold text-neutral-800 mb-3">🌺 推薦花卉</h3>
             <div className="grid grid-cols-2 gap-2">
               {personalityType?.flowers?.map((flower: string, index: number) => (
-                <div key={index} className="p-3 bg-green-50 rounded-lg text-center">
-                  <span className="text-green-800 font-medium">{flower}</span>
-                </div>
+                <FlowerButton 
+                  key={index} 
+                  flowerName={flower} 
+                  index={index} 
+                />
               ))}
             </div>
           </div>
@@ -269,7 +272,37 @@ export default function PersonalityQuiz() {
         {/* 操作按鈕 */}
         <div className="flex gap-4 mt-8">
           <button
-            onClick={() => router.push('/shop')}
+            onClick={() => {
+              // 根據花卉個性類型選擇對應的產品ID
+              let productId = '1'; // 預設產品ID
+              
+              // 根據個性類型選擇對應的產品
+              switch(personalityType?.id) {
+                case 'passionate': // 熱情奔放型
+                  productId = '4'; // 陽光滿溢 (向日葵)
+                  break;
+                case 'gentle': // 溫柔療癒型
+                  productId = '10'; // 優雅百合花束
+                  break;
+                case 'romantic': // 浪漫優雅型
+                  productId = '5'; // 浪漫玫瑰花束
+                  break;
+                case 'innocent': // 純真可愛型
+                  productId = '3'; // 可愛迷你花盒
+                  break;
+                case 'mysterious': // 神秘內斂型
+                  productId = '13'; // 精緻蘭花組合
+                  break;
+                case 'warm': // 溫暖關懷型
+                  productId = '2'; // 溫馨康乃馨
+                  break;
+                default:
+                  productId = '1'; // 清新小花束
+              }
+              
+              // 導向特定產品頁面
+              router.push(`/product/${productId}`);
+            }}
             className="flex-1 bg-pink-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-pink-600 transition-colors"
           >
             🛒 購買推薦花卉

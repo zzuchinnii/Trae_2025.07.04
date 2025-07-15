@@ -9,6 +9,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+    unoptimized: true, // 允許未優化的圖片，解決本地圖片問題
   },
 };
 
